@@ -20,6 +20,7 @@ import com.example.productService.service.ProductService;
 public class ProductController {
 	
 	@Autowired
+	
 	private ProductService productService;
 	
 	@PostMapping
