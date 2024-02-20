@@ -16,7 +16,7 @@ import com.example.productService.dto.ProductResponse;
 import com.example.productService.service.ProductService;
 
 @RestController
-@RequestMapping("/api/product")
+@RequestMapping("/api/product/")
 public class ProductController {
 	
 	@Autowired
@@ -34,7 +34,5 @@ public class ProductController {
 	public List<ProductResponse> getAllProducts() {
 		return productService.getAllProducts();
 	}
-	
-	
 
 }
